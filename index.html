@@ -1,0 +1,40 @@
+
+<!-- LetsGrowMore
+   Task1
+     By 
+Pradip Dound -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1><br>
+        <form id="todo-form">
+            <input type="text" id="myInput" class="todo-input" placeholder="Title...">
+            <span onclick="newElement()" class="addBtn submit">Add</span>
+        </form>
+
+    </div>
+
+    <ul id="myUL" class="todo-list">
+        <!-- <li class="checked">Hit the gym</li>
+        <li>Pay bills</li>
+        <li>Go to the library</li>
+        <li class="checked">Organise my notes</li>
+        <li>Create Project</li>
+        <li>Take quiz</li>
+        <li>Solve 20 math questions</li> -->
+    </ul>
+    <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
